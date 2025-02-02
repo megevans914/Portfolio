@@ -1,0 +1,52 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #303030;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+  }
+  
+  nav ul button {
+    background-color: #ececec;
+    color: #303030;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 12px;
+    border-style: none;
+  }
+  
+  nav ul button:hover {
+    background-color: pink;
+  }
+
+section#about {
+    background-color: #fad0c9;
+}
+
+section#projects {
+    background-color: #ff948d;
+}
+
+section#skills {
+    background-color: #fc7991;
+}
+
+section#experience {
+    background-color: #fc6784;
+}
+
+section#education {
+    background-color: #ff386e;
+}
+
+section#contact {
+    background-color: #fd1c48;
+}
