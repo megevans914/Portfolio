@@ -5,6 +5,7 @@ html {
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #303030;
+    text-align: center;
 }
 
 nav ul {
@@ -12,20 +13,20 @@ nav ul {
     display: flex;
     flex-direction: row;
     justify-content:space-around;
-  }
+}
   
-  nav ul button {
+nav ul button {
     background-color: #ececec;
     color: #303030;
     padding: 0.5rem 1rem;
     font-size: 1rem;
     border-radius: 12px;
     border-style: none;
-  }
+}
   
-  nav ul button:hover {
+nav ul button:hover {
     background-color: pink;
-  }
+}
 
 section#about {
     background-color: #fad0c9;
