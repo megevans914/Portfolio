@@ -5,8 +5,8 @@ html {
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #303030;
-    /* margin: 0;
-    padding: 0; */
+    margin: 0;
+    padding: 0;
 }
 
 nav ul {
@@ -27,6 +27,11 @@ nav ul button {
   
 nav ul button:hover {
     background-color: pink;
+}
+
+section {
+    margin: 0;
+    padding: 0;
 }
 
 section#about {
