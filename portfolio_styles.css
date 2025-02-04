@@ -40,9 +40,9 @@ section#about {
 }
 
 section#about img {
-    width: 75%;
+    width: 1rem;
     max-width: 300px;
-    height: auto;
+    height: 1rem;
     border-radius: 25px;
     margin: 1rem 0;
 }
