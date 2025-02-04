@@ -60,9 +60,8 @@ section#about {
 }
 
 section#about img {
-    width: 9rem;
-    max-width: 300px;
-    height: 10rem;
+    width: 15rem;
+    height: 20rem;
     border-radius: 25px;
     margin: 1rem 0;
 }
