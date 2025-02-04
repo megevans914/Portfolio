@@ -14,7 +14,13 @@ body {
 nav {
     position: fixed;
     top: 0;
-    height: 80px;
+    left: 0;
+    width: 90%;
+    height: 60px;
+    background-color: #d6d6d6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 nav ul {
@@ -24,7 +30,6 @@ nav ul {
     justify-content: space-around;
     align-items: center;
     padding: 1rem;
-    background-color: #d6d6d6;
 }
   
 nav ul button {
