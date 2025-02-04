@@ -82,8 +82,8 @@ section#about {
 }
 
 section#about img {
-    width: 25rem;
-    height: auto;
+    height: 10rem;
+    width: auto;
     border-radius: 25px;
     margin: 1rem 0;
     object-fit: cover;
