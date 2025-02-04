@@ -39,6 +39,14 @@ section#about {
     background-color: #fad0c9;
 }
 
+section#about img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 25px;
+    margin: 1rem 0;
+}
+
 section#projects {
     background-color: #ff948d;
 }
