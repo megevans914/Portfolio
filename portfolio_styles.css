@@ -82,11 +82,10 @@ section#about {
 }
 
 section#about img {
-    height: 10rem;
-    width: auto;
+    height: 10px;
+    width: 20px;
     border-radius: 25px;
     margin: 1rem 0;
-    object-fit: cover;
 }
 
 /* PROJECTS */
