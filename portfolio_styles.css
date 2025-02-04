@@ -14,6 +14,7 @@ body {
 /* NAV BAR */
 
 nav ul {
+    position: fixed;
     list-style: none;
     display: flex;
     flex-direction: row;
