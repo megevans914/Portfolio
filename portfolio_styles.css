@@ -51,6 +51,15 @@ section#projects {
     background-color: #ff948d;
 }
 
+section#projects button {
+    background-color: #ececec;
+    color: #303030;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 12px;
+    border-style: none;
+}
+
 section#skills {
     background-color: #fc7991;
 }
@@ -65,4 +74,13 @@ section#education {
 
 section#contact {
     background-color: #fd1c48;
+}
+
+section#contact button {
+    background-color: #ececec;
+    color: #303030;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 12px;
+    border-style: none;
 }
