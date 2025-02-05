@@ -25,7 +25,7 @@ nav {
     height: 60px;
     background-color: #d6d6d6;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -58,21 +58,20 @@ section {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; centers content vertically */
-    align-items: center; /* centers content horizontally */
+    align-items: center; /* centers content horizontally; justify-content takes care of vertical */
     padding: 2rem;
 }
 
 section h1 {
-    font-size: 3rem;
-}
-
-section h2 {
     font-size: 2rem;
 }
 
+section h2 {
+    font-size: 1.5rem;
+}
+
 section p {
-   font-size: 0.75rem;
+   font-size: 1rem;
 }
 
 /* ABOUT */
