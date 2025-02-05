@@ -58,8 +58,8 @@ section {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; centers content vertically */
+    align-items: center; /* centers content horizontally */
     padding: 2rem;
 }
 
