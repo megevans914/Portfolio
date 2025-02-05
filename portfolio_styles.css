@@ -53,31 +53,30 @@ nav ul button:hover {
 }
 
 /* SECTION (THIS EDITS ALL SECTIONS) */
+/* align-items takes care of horizontal alignment */
+/* justify-content takes care of vertical alignment */
 
 section {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center; /* centers content horizontally; justify-content takes care of vertical */
+    align-items: center;
     padding: 2rem;
-}
-
-section h1 {
-    font-size: 2rem;
-}
-
-section h2 {
-    font-size: 1.5rem;
-}
-
-section p {
-   font-size: 1rem;
 }
 
 /* ABOUT */
 
 section#about {
     background-color: #fad0c9;
+    justify-content: center;
+}
+
+section#about h1 {
+    font-size: 4rem;
+}
+
+section#about p {
+    font-size: 2rem;
 }
 
 section#about img {
