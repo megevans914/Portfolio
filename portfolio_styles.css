@@ -70,6 +70,7 @@ section {
 section#about {
     background-color: #fad0c9;
     justify-content: center;
+    align-items: center;
 }
 
 section#about h1 {
