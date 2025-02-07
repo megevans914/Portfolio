@@ -52,6 +52,7 @@ nav ul button {
   
 nav ul button:hover {
     background-color: pink;
+    transform: scale(1.1)
 }
 
 /* SECTION (THIS EDITS ALL SECTIONS) */
@@ -107,6 +108,7 @@ section#projects button {
 
 section#projects button:hover {
     background-color: pink;
+    transform: scale(1.1);
 }
 
 /* SKILLS */
@@ -146,4 +148,5 @@ section#contact button {
 
 section#contact button:hover {
     background-color: pink;
+    transform: scale(1.1);
 }
