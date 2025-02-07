@@ -79,6 +79,7 @@ section#about h1 {
 
 section#about p {
     font-size: 2rem;
+    align-text: center;
 }
 
 section#about img {
