@@ -47,6 +47,7 @@ nav ul button {
     border-radius: 12px;
     border-style: none;
     justify-content: space-between;
+    margin: 0 0.5rem;
 }
   
 nav ul button:hover {
