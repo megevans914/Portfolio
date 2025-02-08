@@ -129,6 +129,7 @@ section#projects button:hover {
 
 section#skills {
     background-color: #fc7991;
+    line-height: 0.75;
 }
 
 /* EXPERIENCE */
