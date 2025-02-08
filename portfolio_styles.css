@@ -22,7 +22,7 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    height: 60px;
+    height: 15vh;
     background-color: #d6d6d6;
     display: flex;
     justify-content: center;
@@ -60,7 +60,7 @@ nav ul button:hover {
 /* justify-content takes care of vertical alignment */
 
 section {
-    height: 100vh;
+    height: 85vh;
     display: flex;
     flex-direction: column;
     align-items: center;
