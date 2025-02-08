@@ -97,6 +97,7 @@ section#about img {
 
 section#projects {
     background-color: #ff948d;
+    align-items: left;
     text-align: left;
 }
 
