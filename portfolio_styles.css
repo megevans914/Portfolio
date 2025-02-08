@@ -98,8 +98,6 @@ section#about img {
 
 section#projects {
     background-color: #ff948d;
-    align-items: left;
-    text-align: left;
 }
 
 section#projects h1 {
@@ -130,6 +128,8 @@ section#projects button:hover {
 section#skills {
     background-color: #fc7991;
     line-height: 0.75;
+    align-items: left;
+    text-align: left;
 }
 
 /* EXPERIENCE */
