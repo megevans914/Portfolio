@@ -96,6 +96,16 @@ section#about img {
 
 section#projects {
     background-color: #ff948d;
+    text-align: left;
+}
+
+section#projects h1 {
+    font-size: 4rem;
+}
+
+section#about p {
+    font-size: 2rem;
+    text-align: center;
 }
 
 section#projects button {
