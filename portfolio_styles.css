@@ -135,6 +135,8 @@ section#skills {
 
 section#experience {
     background-color: #fc6784;
+    align-items: right;
+    text-align: right;
 }
 
 /* EDUCATION */
