@@ -65,7 +65,8 @@ section {
     flex-direction: column;
     align-items: center;
     padding: 2rem;
-    margin-top: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 
 /* ABOUT */
