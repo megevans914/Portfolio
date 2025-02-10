@@ -190,3 +190,43 @@ section#contact button:hover {
     background-color: pink;
     transform: scale(1.1);
 }
+
+/* Media Queries for Mobile Devices */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul button {
+        margin: 0.5rem 0;
+    }
+
+    section {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    section#about h1,
+    section#projects h1,
+    section#skills h1,
+    section#experience h1,
+    section#education h1,
+    section#contact h1 {
+        font-size: 2.5rem;
+    }
+
+    section#about p,
+    section#projects p,
+    section#skills p,
+    section#experience p {
+        font-size: 1.5rem;
+    }
+
+    section#contact .button-container {
+        flex-direction: column; /* Stack buttons vertically */
+    }
+
+    section#contact button {
+        width: 100%; /* Make buttons full width */
+    }
+}
