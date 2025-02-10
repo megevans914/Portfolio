@@ -132,12 +132,37 @@ section#skills {
     text-align: left;
 }
 
+section#skills h1 {
+    font-size: 4rem;
+}
+
+section#skills h2 {
+    font-size: 3rem;
+}
+
+section#skills p {
+    font-size: 2rem;
+}
+
 /* EXPERIENCE */
 
 section#experience {
     background-color: #fc6784;
     align-items: right;
     text-align: right;
+    line-height: 1.2;
+}
+
+section#experience h1 {
+    font-size: 4rem;
+}
+
+section#experience h2 {
+    font-size: 3rem;
+}
+
+section#experience p {
+    font-size: 2rem;
 }
 
 /* EDUCATION */
@@ -150,6 +175,7 @@ section#education {
 
 section#contact {
     background-color: #fd1c48;
+    justify-content: center;
 }
 
 section#contact button {
