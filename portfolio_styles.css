@@ -60,7 +60,7 @@ nav ul button:hover {
 /* justify-content takes care of vertical alignment */
 
 section {
-    height: 80vh;
+    height: 85vh;
     display: flex;
     flex-direction: column;
     align-items: center;
