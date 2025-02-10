@@ -194,7 +194,7 @@ section#contact button:hover {
 /* Media Queries for Mobile Devices */
 @media (max-width: 768px) {
     nav ul {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
 
@@ -209,12 +209,12 @@ section#contact button:hover {
     }
 
     section h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
         text-align: center;
     }
 
     section p {
-        font-size: 1.5rem;
+        font-size: 1rem;
         text-align: center;
     }
 
