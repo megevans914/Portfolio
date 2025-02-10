@@ -82,7 +82,7 @@ section#about h1 {
 }
 
 section#about p {
-    font-size: 2rem;
+    font-size: 1rem;
     text-align: center;
 }
 
@@ -137,7 +137,7 @@ section#skills h1 {
 }
 
 section#skills p {
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 /* EXPERIENCE */
@@ -154,7 +154,7 @@ section#experience h1 {
 }
 
 section#experience p {
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 /* EDUCATION */
