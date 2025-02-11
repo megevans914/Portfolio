@@ -213,6 +213,7 @@ section#contact .button-container {
         padding-top: 4rem;
         padding-bottom: 4rem;
         line-height: 1.2;
+        height: 100vh;
     }
 
     section h1 {
