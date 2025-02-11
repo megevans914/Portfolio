@@ -147,11 +147,12 @@ section#experience {
     background-color: #fc6784;
     align-items: right;
     text-align: right;
-    line-height: 0.75;
+    line-height: 0.8;
+    margin-bottom: 0.5rem;
 }
 
 section#experience h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 section#experience p {
