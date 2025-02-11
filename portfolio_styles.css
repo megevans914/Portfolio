@@ -1,3 +1,4 @@
+/* Base styles for mobile devices first */
 html {
     scroll-behavior: smooth;
     height: 100%;
@@ -6,7 +7,6 @@ html {
 }
 
 /* BODY */
-
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #303030;
@@ -16,7 +16,6 @@ body {
 }
 
 /* NAV BAR */
-
 nav {
     position: fixed;
     top: 0;
@@ -32,13 +31,12 @@ nav {
 nav ul {
     list-style: none;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     padding: 1rem;
     margin: 1rem;
 }
-  
+
 nav ul button {
     background-color: #ececec;
     color: #303030;
@@ -46,31 +44,38 @@ nav ul button {
     font-size: 1rem;
     border-radius: 12px;
     border-style: none;
-    justify-content: space-between;
-    margin: 0 0.5rem;
+    margin: 0.5rem 0;
+    width: 100%;
+    text-align: center;
 }
-  
+
 nav ul button:hover {
     background-color: pink;
-    transform: scale(1.1)
+    transform: scale(1.1);
 }
 
 /* SECTION (THIS EDITS ALL SECTIONS) */
-/* align-items takes care of horizontal alignment */
-/* justify-content takes care of vertical alignment */
-
 section {
-    height: 85vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding: 2rem 1rem;
     justify-content: center;
+    line-height: 0.5;
+}
+
+section h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+section p {
+    font-size: 1rem;
+    text-align: center;
 }
 
 /* ABOUT */
-
 section#about {
     background-color: #fad0c9;
     align-items: center;
@@ -78,11 +83,11 @@ section#about {
 }
 
 section#about h1 {
-    font-size: 4rem;
+    font-size: 2rem;
 }
 
 section#about p {
-    font-size: 2rem;
+    font-size: 1rem;
     text-align: center;
 }
 
@@ -94,14 +99,13 @@ section#about img {
 }
 
 /* PROJECTS */
-
 section#projects {
     background-color: #ff948d;
     text-align: left;
 }
 
 section#projects h1 {
-    font-size: 4rem;
+    font-size: 2rem;
 }
 
 section#projects p {
@@ -124,7 +128,6 @@ section#projects button:hover {
 }
 
 /* SKILLS */
-
 section#skills {
     background-color: #fc7991;
     line-height: 0.75;
@@ -133,7 +136,7 @@ section#skills {
 }
 
 section#skills h1 {
-    font-size: 4rem;
+    font-size: 2rem;
 }
 
 section#skills p {
@@ -141,7 +144,6 @@ section#skills p {
 }
 
 /* EXPERIENCE */
-
 section#experience {
     background-color: #fc6784;
     align-items: right;
@@ -150,7 +152,7 @@ section#experience {
 }
 
 section#experience h1 {
-    font-size: 4rem;
+    font-size: 2rem;
 }
 
 section#experience p {
@@ -158,19 +160,17 @@ section#experience p {
 }
 
 /* EDUCATION */
-
 section#education {
     background-color: #ff386e;
 }
 
 /* CONTACT */
-
 section#contact {
     background-color: #fd1c48;
 }
 
 section#contact h1 {
-    font-size: 4rem;
+    font-size: 2rem;
 }
 
 section#contact button {
@@ -182,7 +182,7 @@ section#contact button {
     border-style: none;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
-    width: 200px;
+    width: 100px;
     text-align: center;
 }
 
@@ -191,41 +191,41 @@ section#contact button:hover {
     transform: scale(1.1);
 }
 
-/* Media Queries for Mobile Devices */
-@media (max-width: 768px) {
+section#contact .button-container {
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Media Queries for Larger Devices */
+@media (min-width: 769px) {
     nav ul {
-        flex-direction: column;
-        align-items: center;
+        flex-direction: row;
+        justify-content: center;
     }
 
     nav ul button {
-        margin: 0.5rem 0;
-        width: 100%;
-        text-align: center;
+        margin: 0 0.5rem;
+        width: auto;
+        text-align: left;
     }
 
     section {
-        padding: 2rem 1rem;
-        line-height: 0.5;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        line-height: 1.2;
     }
 
     section h1 {
-        font-size: 2rem;
-        text-align: center;
+        font-size: 4rem;
+        text-align: left;
     }
 
     section p {
-        font-size: 1rem;
-        text-align: center;
-    }
-
-    section#contact .button-container {
-        flex-direction: column; /* Stack buttons vertically */
-        align-items: center;
+        font-size: 2rem;
+        text-align: left;
     }
 
     section#contact button {
-        width: 100px; /* Make buttons fixed width */
-        margin: 0.5rem 0;
+        width: 200px;
     }
 }
