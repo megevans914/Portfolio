@@ -210,20 +210,20 @@ section#contact .button-container {
     }
 
     section {
-        padding-top: 4rem;
-        padding-bottom: 4rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
         line-height: 1.2;
         height: 100vh;
     }
 
     section h1 {
-        font-size: 4rem;
-        text-align: left;
+        font-size: 5rem;
+        text-align: center;
     }
 
     section p {
-        font-size: 2rem;
-        text-align: left;
+        font-size: 3rem;
+        text-align: center;
     }
 
     section#contact button {
