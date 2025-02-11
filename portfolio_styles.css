@@ -148,15 +148,17 @@ section#experience {
     align-items: right;
     text-align: right;
     line-height: 0.8;
-    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 section#experience h1 {
     font-size: 1.5rem;
+    margin-bottom: 0.25rem;
 }
 
 section#experience p {
     font-size: 1rem;
+    margin-top: 0.25rem;
 }
 
 /* EDUCATION */
