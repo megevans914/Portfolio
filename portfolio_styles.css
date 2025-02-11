@@ -62,7 +62,7 @@ section {
     align-items: center;
     padding: 2rem 1rem;
     justify-content: center;
-    line-height: 1;
+    line-height: 1.2;
 }
 
 section h1 {
@@ -79,7 +79,6 @@ section p {
 section#about {
     background-color: #fad0c9;
     align-items: center;
-    line-height: 1.2;
 }
 
 section#about h1 {
@@ -130,7 +129,6 @@ section#projects button:hover {
 /* SKILLS */
 section#skills {
     background-color: #fc7991;
-    line-height: 0.75;
     align-items: left;
     text-align: left;
 }
@@ -148,7 +146,6 @@ section#experience {
     background-color: #fc6784;
     align-items: right;
     text-align: right;
-    line-height: 0.70;
 }
 
 section#experience h1 {
