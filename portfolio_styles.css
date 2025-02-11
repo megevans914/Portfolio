@@ -56,7 +56,7 @@ nav ul button:hover {
 
 /* SECTION (THIS EDITS ALL SECTIONS) */
 section {
-    height: auto;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
