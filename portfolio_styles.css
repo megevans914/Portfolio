@@ -20,7 +20,7 @@ nav {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 110%;
     height: 10vh;
     background-color: #d6d6d6;
     display: flex;
@@ -47,6 +47,7 @@ nav ul button {
     margin: 0.5rem; /* Increased margin */
     width: auto; /* Adjusted width */
     text-align: center;
+    font-size: 0.5rem;
 }
 
 nav ul button:hover {
@@ -204,7 +205,8 @@ section#contact .button-container {
     nav ul button {
         margin: 0 0.5rem;
         width: auto;
-        text-align: left;
+        text-align: center;
+        padding: 1rem;
     }
 
     section {
