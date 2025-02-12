@@ -254,6 +254,10 @@ section#contact .button-container {
         text-align: center;
     }
 
+    section#skills {
+        line-height: 1;
+    }
+
     section#contact button {
         width: 200px;
     }
