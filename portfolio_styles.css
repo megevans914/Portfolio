@@ -158,6 +158,8 @@ section#experience h1 {
 
 section#experience h2 {
     font-size: 1rem;
+    align-items: center;
+    text-align: center;;
 }
 
 section#experience p {
