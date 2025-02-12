@@ -101,11 +101,17 @@ section#about img {
 /* PROJECTS */
 section#projects {
     background-color: #ff948d;
-    text-align: left;
+    text-align: center;
+    align-items: center;
 }
 
 section#projects h1 {
     font-size: 2rem;
+}
+
+section#projects h2 {
+    text-align: center;
+    align-items: center;
 }
 
 section#projects p {
