@@ -47,7 +47,7 @@ nav ul button {
     margin: 0.5rem; /* Increased margin */
     width: auto; /* Adjusted width */
     text-align: center;
-    font-size: 0.5rem;
+    font-size: 1rem;
 }
 
 nav ul button:hover {
@@ -146,20 +146,19 @@ section#skills p {
 section#experience {
     background-color: #fc6784;
     line-height: 1;
+    align-items: center;
+    text-align: center;
 }
 
 section#experience h1 {
     font-size: 1.5rem;
     margin-bottom: 0.25rem;
-    align-items: center;
-    text-align: center;
+    
 }
 
 section#experience p {
     font-size: 1rem;
     margin-top: 0.25rem;
-    align-items: center;
-    text-align: center;
 }
 
 /* EDUCATION */
