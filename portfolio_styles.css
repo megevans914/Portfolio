@@ -82,6 +82,15 @@ section#about {
     align-items: center;
 }
 
+section#about button {
+    background-color: #ececec;
+    color: #303030;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 12px;
+    border-style: none;
+}
+
 section#about h1 {
     font-size: 2rem;
 }
