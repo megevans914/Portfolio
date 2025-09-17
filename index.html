@@ -12,18 +12,22 @@
     <body>
         <header>
             <nav>
-                <input type="checkbox" id="nav-toggle" class="nav-toggle" />
-                <label for="nav-toggle" class="nav-hamburger" aria-label="Open navigation menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </label>
                 <ul class="menu">
-                    <li><a href="#about" class="nav-button">About Me</a></li>
-                    <li><a href="#experience" class="nav-button">Work Experience</a></li>
-                    <li><a href="#projects" class="nav-button">Projects</a></li>
-                    <li><a href="#languages" class="nav-button">Programming Languages</a></li>
-                    <li><a href="#contact" class="nav-button">Contact Info</a></li>
+                    <a href="#about">
+                        <button>About Me</button>
+                    </a>
+                    <a href="#projects">
+                        <button>Projects</button>
+                    </a>
+                    <a href="#skills">
+                        <button>Skills</button>
+                    </a>
+                    <a href="#experience">
+                        <button>Experience</button>
+                    </a>
+                    <a href="#contact">
+                        <button>Contact Info</button>
+                    </a>
                 </ul>
             </nav>
         </header>
@@ -31,42 +35,48 @@
 
             <section id="about" class="section-page">
                 <h1>Megan Evans</h1>
-                <p>Hello! I am Megan Evans, an undergraduate student at Bowling Green State University. I am studying computer science and information systems. My areas of interest include web development, healthcare technology, and artificial intelligence. </p>
+                <p>Hello! I am Megan Evans, an undergraduate student at Bowling Green State University. I am studying computer science and information systems. My areas of interest include web development and artificial intelligence. </p>
                 <img src="megan_evans.jpeg" alt="Picture of Megan">
                 <a href="Megan_Evans_Resume_25.pdf" download>
                     <button type="button">Download my resume</button>
                 </a>
-                <img src="excel_badge.png" alt="Certification badge">
             </section>
-           <section id="experience" class="section-page">
-            <!-- Work Experience -->
-             <h1>Work Experience</h1>
-             <h2>Huron City Schools Information Technology Department Internship</h2>
-                <p>Assisted with end-of-year technology collection and upkeep</p>
-             <h2>Bowling Green State University Student Support Services</h2>
-                <p>On-campus high-level student device and printer support</p>
-             <h2>NASA Neil A. Armstrong Test Facility Shadow Experience</h2>
-                <p>Spent a week shadowing different facility departments</p>
-             <h2>Therma-Tru Shadowing Experience</h2>
-                <p>Spent a week shadowing different facility departments</p>
-             <h2>St. Mary Central Catholic High School Technology Aide</h2>
-                <p>Assisted students and teachers with technology issues<br>Documented equipment in preparation for new computer lab<br>Performed various equipment setup and troubleshooting tasks<br>Utilized basic Python programming</p>
-           </section>
             <section id="projects" class="section-page">
-               <h1>Projects</h1>
-               <h2>Author portfolio website</h2>
-               <!-- embed here -->
-                <p>My largest project to date is creating an author portfolio website for my dad.</p>
-                <h2>HackAPrompt</h2>
-                <!-- image highlights? -->
-                <p>Participated in a worldwide AI red-teaming hackathon with the goal of bolstering AI’s resistance to jailbreaking, prompt hacking, and prompt injection</p>
+                <h1>Projects</h1>
+                <h2>Author Portfolio Website</h2>
+                    <p>My largest project to date is creating an author portfolio website for my dad.</p>
+                    <a href="https://stephencevansauthor.com">
+                        <button>stephencevansauthor.com</button>
+                    </a>
                 <h2>Amazon AWS Deepracer Competition Event</h2>
-                <!-- image highlights? -->
-                <p>Learned to build and implement a reinforcement learning model</p>
+                    <p>Learned to build and implement a reinforcement learning model</p>
             </section>
-            <section id="languages" class="section-page">
-                <h1>Programming languages</h1>
-                <p>C++: Intermediate level<br>Python: Beginner level<br>HTML: Beginner level<br>CSS: Beginner level</p>
+            <section id="skills" class="section-page">
+                <h1>Skills</h1>
+                <h2>Excel MO200 certification</h2>
+                <img src="excel_badge.png" alt="Certification badge">
+
+                <h2>Programming Languages</h2>
+                    <p>C++: Intermediate level</p>
+                    <p>Python: Beginner level</p>
+                    <p>HTML: Beginner level</p>
+                    <p>CSS: Beginner level</p>
+                <h2>Artificial Intelligence Prompt Engineering</h2>
+                <p>Worked extensively with multiple different generative AI models to achieve accurate results and maximize algorithm potential</p>
+            </section>
+            <section id="experience" class="section-page">
+                <h1>Technical Experience</h1>
+                <h2>Bowling Green State University Student Support Services</h2>
+                    <p>On-campus high-level student device and printer support</p>
+                <h2>NASA Neil A. Armstrong Test Facility Shadow Experience</h2>
+                    <p>Spent a week shadowing different facility departments</p>
+                <h2>Therma-Tru Shadowing Experience</h2>
+                    <p>Spent a week shadowing different facility departments</p>
+                <h2>St. Mary Central Catholic High School Technology Aide</h2>
+                    <p>Assisted students and teachers with technology issues</p>
+                    <p>Documented equipment in preparation for new computer lab</p>
+                    <p>Performed various equipment setup and troubleshooting tasks</p>
+                    <p>Utilized basic Python programming</p>
             </section>
             <section id="contact" class="section-page">
                 <h1>Contact Info</h1>
@@ -82,7 +92,4 @@
             </section>
         </main> 
     </body>
-    <footer>
-        <p>© 2025 Megan Evans • Built with HTML & CSS</p>
-    </footer>
 </html>
