@@ -254,12 +254,14 @@ section#contact .button-container {
     }
 
     section h1 {
-        font-size: 6rem;
+        /* reduced from 6rem to avoid extremely large headings on desktop */
+        font-size: 2.5rem;
         text-align: center;
     }
 
     section p {
-        font-size: 4rem;
+        /* reduced from 4rem to standard readable paragraph size on desktop */
+        font-size: 1.1rem;
         text-align: center;
     }
 
