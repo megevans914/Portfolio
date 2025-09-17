@@ -1,0 +1,11 @@
+{
+    "C_Cpp.autocomplete": "default",
+    "html.autoClosingTags": true,
+    "html.autoCreateQuotes": false,
+    "editor.inlineSuggest.enabled": false,
+    "files.associations": {
+        "iostream": "cpp",
+        "vector": "cpp",
+        "xstring": "cpp"
+    }
+}

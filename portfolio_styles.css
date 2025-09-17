@@ -4,6 +4,7 @@ html {
     height: 100%;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* BODY */
@@ -17,40 +18,40 @@ body {
 
 /* NAV BAR */
 nav {
+    background-color: #d6d6d6;
+    width: 100%;
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 10vh;
-    background-color: #d6d6d6;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    z-index: 1000;
 }
 
 nav ul {
     list-style: none;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    padding: 1rem;
+}
+
+nav ul li {
     margin: 1rem;
 }
 
-nav ul button {
+.nav-button {
+    display: inline-block;
     background-color: #ececec;
     color: #303030;
-    padding: 0.25rem 0.5rem; /* Reduced padding */
+    padding: 0.5rem 1.5rem;
     font-size: 1rem;
     border-radius: 12px;
-    border-style: none;
-    margin: 0.5rem; /* Increased margin */
-    width: auto; /* Adjusted width */
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.2s;
     text-align: center;
-    font-size: 0.5rem;
 }
 
-nav ul button:hover {
+.nav-button:hover {
     background-color: pink;
     transform: scale(1.1);
 }
@@ -107,9 +108,43 @@ section#about img {
     margin: 1rem 0;
 }
 
+section#experience {
+    background-color: #ff948d;
+}
+
+section#about button:hover {
+    background-color: pink;
+    transform: scale(1.1);
+}
+
+/* EXPERIENCE */
+section#experience {
+    background-color: #fc7991;
+    line-height: 1;
+    align-items: center;
+    text-align: center;
+}
+
+section#experience h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.25rem;
+    
+}
+
+section#experience h2 {
+    font-size: 1rem;
+    align-items: center;
+    text-align: center;;
+}
+
+section#experience p {
+    font-size: 1rem;
+    margin-top: 0.25rem;
+}
+
 /* PROJECTS */
 section#projects {
-    background-color: #ff948d;
+    background-color: #fc6784;
     text-align: center;
     align-items: center;
 }
@@ -142,48 +177,8 @@ section#projects button:hover {
     transform: scale(1.1);
 }
 
-/* SKILLS */
-section#skills {
-    background-color: #fc7991;
-    align-items: center;
-    text-align: center;;
-}
-
-section#skills h1 {
-    font-size: 2rem;
-}
-
-section#skills p {
-    font-size: 1rem;
-}
-
-/* EXPERIENCE */
-section#experience {
-    background-color: #fc6784;
-    line-height: 1;
-    align-items: center;
-    text-align: center;
-}
-
-section#experience h1 {
-    font-size: 1.5rem;
-    margin-bottom: 0.25rem;
-    
-}
-
-section#experience h2 {
-    font-size: 1rem;
-    align-items: center;
-    text-align: center;;
-}
-
-section#experience p {
-    font-size: 1rem;
-    margin-top: 0.25rem;
-}
-
-/* EDUCATION */
-section#education {
+/* LANGUAGES */
+section#languages {
     background-color: #ff386e;
 }
 
@@ -269,5 +264,63 @@ section#contact .button-container {
 
     section#contact button {
         width: 200px;
+    }
+}
+/* Hamburger menu styles */
+.nav-toggle {
+    display: none;
+}
+
+.nav-hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    z-index: 1100;
+}
+
+.nav-hamburger span {
+    height: 3px;
+    width: 100%;
+    background: #303030;
+    margin: 4px 0;
+    border-radius: 2px;
+    transition: 0.3s;
+}
+
+/* Hide nav ul by default on mobile */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        position: absolute;
+        top: 3.5rem;
+        left: 0;
+        width: 100%;
+        background: #d6d6d6;
+        display: none;
+        z-index: 1000;
+    }
+    .nav-toggle:checked + .nav-hamburger + ul {
+        display: flex;
+    }
+    .nav-hamburger {
+        display: flex;
+    }
+}
+
+/* Hide hamburger on desktop */
+@media (min-width: 769px) {
+    .nav-hamburger, .nav-toggle {
+        display: none;
+    }
+    nav ul {
+        display: flex !important;
+        position: static;
+        background: none;
     }
 }
